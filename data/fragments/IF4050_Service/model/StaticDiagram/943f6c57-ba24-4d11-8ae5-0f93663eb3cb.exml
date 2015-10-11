@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="InformationDistributor" version="4">
+  <OBJECT>
+    <ID name="InformationDistributor" mc="Standard.StaticDiagram" uid="943f6c57-ba24-4d11-8ae5-0f93663eb3cb"/>
+    <PID name="if4050_service" mc="Standard.Package" uid="0ada3818-85fc-4ef1-8d74-4b746ea9a1a2"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">363</ATT>
+      <ATT name="UiData"><![CDATA[eJztXW1z2rga/SsMc7+KWpb8dtN2hwKbZZoAA6S7vV8ysiwn3ho7Y5u26a+/Mm8lDjXGGGFcz2QmwcGSbJ/n0TmPjuDtH99nbuMrC0LH9941YUtqNv54/3Zo/sto1HAsfqjZiJ6f2LumHzy0Zr7FXMdvWQ55CMisxSwn8oNWGJHI+dJiLpsxLwqXr+n6TdezyeJ1d/m62ZiRf/3gftOp1Hz/dhT4TyyInhsemfG+XPLsz6MuiQj/3yfiztlqEN7cdZtv3r99sz7h1amT6NllzReXIKddQhi/P2xRP2Ct5bkZxtchISUWs9ad9b5HY2Zn7GXAm1id2WDfo67Z52Nc/Bn/YTGbzN0o/SI7N+3J5L49nd5P/hr+PZn2xr3h9POoN0ncrp43n/0301V/ZM//mTz63yYRC5gfn33LT2k2vsatvWv2O8NB+pC6vVFv0O0NOp9FjWna+2eaPqZRu/Oxfd0rz4D6Az6KP9ud3v24Nxr3Jve3w27vqOGM2VPAQh51PMJ878VwJtPxXWd6N+51sw6qNPdpNBxP41t0ytvTv+XQyBJmpbkrneHtaDjoDYRF/Y4hvVnm1bRhBswlEbN4QkyM6zY+tEHn9pzQMDCyVapowCQyBtiCEOiEKUCyDaSqiJmImuk3xyVh9NHzv3k3xGRuoudJFDjeQ/N937P9YLbAQtcJ+UFzzuevt28W7029Jt9lfa/jz5780IlP/0UHGZrqPDquFbC4hRs+hhczFcox2VKX/PjBJ9kOvwPhUZPrmA+DeA/uTwAgLF3xHyTDK4jhwRMvPvnEG8+6yyk+QyCXKOcuBzQc3V+Ph3ejT/1J/8NNclAffA464m3ajoI5O1U0LsDTMGysmRqFwJYlBjBlGjA4HwGQKMgghmpCCf8GUagcG4WjwJmR4HmwQEahASld5Y9GNWs08qa+Px8dkkmk1Fjd2cEtcbwYKEdiVsuB2bjV8IlQ9sj4Aww4egfrI38tjoiXarpYjKo1RrNgdImGDA2GnEveO/RVQ8mpzCZumJzLdjX1hT1/8wOrgNYiQr/chwuae/g0u2to7o4HcnhTxOTPi9AoxxVusLoVPka+mSsMHdtZJIDO5sWYhc4PYrrsOvDnT+IzAZTqVFDCVHDkNAXzlBNJtLwQ9hBDkaO0vT5wLmxmrigWg00eCzU4M4DzJS7yQPXN6ld6moV5dHrc4OLa1ygerg8cj+K+x4Mj5murx2qgwzGdWazXmBaqD1j06Fu5Ab39hPPo2g1qtwF7howrWLzCk6nXzU1sUAlDiiAEiBAKsM0MQKACAcYq1IkMkW0YBSA0ZJ61hdLI73C4/WCeWFJQK4PMtbxt2OeR9WUJWcFaXkTIyki3Dd1mQLVlHWCZGsDEugoMVdYQD1ubansQki9kJ0+MclVG69C9nNDNo8VLErqyYO0tInRNm+hMUQgwqKEArCoq0C1EAISyAi1FQ0Shpwjd9gPz6HMdsSWN2GyCT85TtnC4KAs8flN4/zSa82i5nvVXxybrY2cI7rp4UUqht4bGkSpPzlObyATVMxXbZMGFCTnpJbhMvBaIzBNX0+Q8dYlMiP2f750jwQquVVQEsCdPsDEaCkZxRoDnUfGO57FgsTa3QDZ/cbzBK1kmfsW7M4BbtKqv2UNG9uBlWqFPpQ55JOsvcHomsoAEK1ceDjU8z08hUD59thO5LDwPbUCCdVkN3TLShtf/SvTjhJ/4K4eSYqseiV5eG1lbK4ztoRTJheed0ZpLos7IA9s4Fhdlnzhs46Oxa3ESH13ipEiGdDhBQoLlam2zzRTFE37FrutEWUK5CuXTrGMTUz9FR1vqC/bRy9C4kuOdLRK8gvLhbhmUWePXW1tKsbWFMEtCJjMAYyoF2DQ0QKhkAgkrEMuaZTNtz46KTHlstUB7Szw+L8UwLo/1EuWpQojc1pI3FAVXJNCJncIVQGpBe1pQnnrEhiKWZ1MLFlyUQCdWdhVAaL2jpTAqmGiq4B0tOE9lp6RbWrDgCk+dB07NqXCeSkbptrNg0SWLEy9YVgCXonay4KP2BAjYyaJph8NZ9Eb3Gs7iNrHgC3bEY8FKFZ9MqW5uYkNDDCFVlYGk63LsiJeBaSoawCo1NUvSZEtVCgDnA4s6vscpb7RVKa5NteVSAjsnmAu2wSuCdbuIeFUYpAQzkweozeNVMRHQZcYA1hE1bAINxJKjyBOvxLJW88kqbOtYLWmsZuOJSoUM8IpgGV7zQ1Hed6Vq3ndFsDJXqgHVyzGuKRXzviuCtXdFAHvK3Ho227tSWtv7HkvFLlyLlu41rkU43pXLd7yrgkWqUi8qnZkzqBUwu6uCNViN2pLxhN/B565W2eeuCpamte2u9riX2uOuls3jrmBp4XGXtdhYm+Pz4muPe/qAyuZxpxozCTYVIFu6CrAhScBQVQlolEAGNUmXzT1uikwpbPmJRmW0Y6klt7jnjkTRH4t/4rn28oFakMNdrYjDXRP9Ye0nlnOXD9Da4F4YD0w0VbDBXauQwV0TXNWp08CJCZVWCX+7JrhUoZ148ebyYSnK3q6V3t6+xxy7C82Cl9hrNItzt2sX7G7XBItUTYBbluqIyMjUAdSwwbGp68A0KQbEpowybEFmFvEVDbW7/QJkwM755YLd7bpgzS4kXhUEJSiZgKrxh7wThnm82hQYjOimgYhBSBG7UWp3+6XEajaaqFfI3a4L1uA1PRRkbterZm7XBctyvRpIvRyjml4xc7suWHlXBLAnTK1n87brFfK266KFew1rAdZ2/fKt7YZgharXy0nnJQxGBZzthmD9VYO2XCThdzC2G1U2thuCZWlttqt97aXzte/NLzeO9yXcxTuNdNG/zgbzmUv92cz3WvOQI4Zngrv498Gxv91zqjz/6Z2KQ9flw+d9jkj0mKXLiT8PKGt79NEPEp2mC8HXnZJFIzFXiZPyqskMQ7Ac2+bY8ShLPPGuw7tYJPafn5l3BfN8KVyXhdHOa0wViOe5RiijqxzMJ37gK+T8apJPnDHmWGPBR8dL5oDDNh10fM5MaZzklg32rc2lfOgNuqNhfzDdE/ILDI7Jl+TN2U9TIxI8sCjbqRlu4q5JM1VtitwrcjdpX/fux8O7aX9wffRekRyPrbDpe5EQGyphzLaYAqiMFD59mwgQ2WRAkZGBVcokWTXFVJWXSXDrSexZSo3Tyda70R6Wwb5HyxiPp5Vb8vTy29Sl1FrAvmnlXL54KKUq2uLJpJG0o1QWjfV6+lk44wtwp5Y6dvCCnyHOA/PP2ETP/ybuzyR741MSZeMK9ur0JFPw5+b2rqvWniQ136Mfk18/mjj9657T5T3n79tFkErfF0ly70NK1+on5OPxN4OJJ+RQyiZAxLJV1bgyfllZOZyRQ+lQrSPiIqF0lYy2mpKfjZJDKVWa1pw8PwtCjGiYMgtgotoAayoCpgUJIKrEdB1i23i1M6mcnFw9jpNnqwuUjpNn1qrFcPI4EH8TONak/OykHGYTyjUpF03K99KaDw/dgHzj8XFDnlmS8MH0pfH1Y7WWLYQtN26DP9AXTYrJtYedlS3RTeLFRNpdXm7DwMhWqaIBk8gYYAtCoBOmAMk2kKoiZiK6pwrhJBPBOjN1r1s37c+98f2Hdudj/Okug27Ra8e/npy3ntXOtRUIsynuGgVFoWA6HAmzDvwfhFwPfw==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[InformationDistributor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="CapabilityDiagram" mc="Standard.Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="aa4c1045-305c-4773-b078-05d4910b8abc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Capability diagram is used for designing Capabilities (functions) and relations between them (use links). Capabilities can be placed in packages to separate domains.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

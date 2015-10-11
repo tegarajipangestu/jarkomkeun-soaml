@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IF4050_Service" version="4">
+  <OBJECT>
+    <ID name="IF4050_Service" mc="Standard.AnalystProject" uid="de36204d-e862-463f-afd0-c3c5d9e34cdc"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[IF4050_Service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="IF4050_Service" mc="Standard.PropertyContainer" uid="5c8c7ec1-44ae-4712-bed9-6492284ed9f9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

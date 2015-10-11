@@ -1,0 +1,614 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="if4050_service" version="4">
+  <OBJECT>
+    <ID name="if4050_service" mc="Standard.Package" uid="0ada3818-85fc-4ef1-8d74-4b746ea9a1a2"/>
+    <PID name="IF4050_Service" mc="Standard.Project" uid="5886cb4e-d7de-4876-9582-4fa08cd2da37"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[if4050_service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="News and Information Distribution Services Architecture" mc="Standard.Collaboration" uid="593d0845-be25-4cf7-aad1-6bd505fdc8a8"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[News and Information Distribution Services Architecture]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedCollaborationUse">
+              <OBJECT>
+                <ID name="na" mc="Standard.CollaborationUse" uid="2d31f2c6-aea0-44e4-8dd8-c1d35efd5115"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[na]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <REFOBJ>
+                      <ID name="NewsAggregator" mc="Standard.Collaboration" uid="47b44ea3-eacc-433e-b457-1b634f2b50ae"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="requester" mc="Standard.Dependency" uid="2d40ca3b-cf2e-4f59-a6d8-e7f34c44bdc6"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[requester]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="nc" mc="Standard.BindableInstance" uid="bec86622-2c63-49c9-81ba-b2b53cb7c4a7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Note" uid="b4599bfb-2bab-488e-9a83-504bcfbee4c7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"></ATT>
+                        <ATT name="MimeType"><![CDATA[text/html]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nd" mc="Standard.CollaborationUse" uid="6b2300a5-bfdd-414c-9d06-c3cfd771f1ef"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[nd]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <REFOBJ>
+                      <ID name="NewsDistributor" mc="Standard.Collaboration" uid="7e48700b-f3d6-440b-8cae-7b0736a011ca"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="consumer" mc="Standard.Dependency" uid="9bf7b80c-8f8b-42a5-bb8c-79d4ca1a7f34"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[consumer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="instansi" mc="Standard.BindableInstance" uid="83a23d99-2c29-48b4-8aa4-caa85a5a5816"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="consumer" mc="Standard.Dependency" uid="b63bbc85-4932-4079-9144-6c203b515764"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[consumer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="nc" mc="Standard.BindableInstance" uid="bec86622-2c63-49c9-81ba-b2b53cb7c4a7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="consumer" mc="Standard.Dependency" uid="94e5abe5-9834-4b73-ab11-a9642da6ea51"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[consumer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="masy" mc="Standard.BindableInstance" uid="d7b7d653-2d51-4c35-8a15-fe78e4a18fce"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="id" mc="Standard.CollaborationUse" uid="af342b1c-ba81-43a8-afb8-2e21906402b7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[id]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <REFOBJ>
+                      <ID name="InformationDistributor" mc="Standard.Collaboration" uid="2ce8a647-37c8-429b-ba50-2e4a8fb8a76d"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="consumer" mc="Standard.Dependency" uid="6197ee88-a50b-4612-b589-2e895cf7aa60"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[consumer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="OS" mc="Standard.BindableInstance" uid="2d3bcdf2-995b-49cc-8b79-169ac511aad6"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="consumer" mc="Standard.Dependency" uid="296806b9-d682-4ca0-9768-32db6e00c2af"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[consumer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="masy" mc="Standard.BindableInstance" uid="d7b7d653-2d51-4c35-8a15-fe78e4a18fce"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="consumer" mc="Standard.Dependency" uid="fc7a7c3b-cfad-48eb-bb78-fb4b4dc4bf14"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[consumer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="instansi" mc="Standard.BindableInstance" uid="83a23d99-2c29-48b4-8aa4-caa85a5a5816"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="masy" mc="Standard.BindableInstance" uid="d7b7d653-2d51-4c35-8a15-fe78e4a18fce"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[masy]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Masyarakat" mc="Standard.Class" uid="ff9c798b-b494-4a9f-95c9-9b6105ea83cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="instansi" mc="Standard.BindableInstance" uid="83a23d99-2c29-48b4-8aa4-caa85a5a5816"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[instansi]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Instansi" mc="Standard.Class" uid="26e86559-89c9-4682-90e2-e1da7a8017cb"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="producer" mc="Standard.Dependency" uid="b0710a00-cca8-44b7-acbb-5a9f617b178a"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[producer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="nd" mc="Standard.CollaborationUse" uid="6b2300a5-bfdd-414c-9d06-c3cfd771f1ef"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="producer" mc="Standard.Dependency" uid="8475894c-d99f-41fb-9838-919feb2eb160"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[producer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="id" mc="Standard.CollaborationUse" uid="af342b1c-ba81-43a8-afb8-2e21906402b7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nc" mc="Standard.BindableInstance" uid="bec86622-2c63-49c9-81ba-b2b53cb7c4a7"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[nc]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="NewsContainer" mc="Standard.Class" uid="6f39cc47-a864-45af-b09c-790b2cebb42a"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="provider" mc="Standard.Dependency" uid="a6825c7a-5c84-4f76-b213-45bb5e9ed745"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[provider]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="nd" mc="Standard.CollaborationUse" uid="6b2300a5-bfdd-414c-9d06-c3cfd771f1ef"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="SMnNO" mc="Standard.BindableInstance" uid="7757c8f4-90f6-4485-88b0-156a4ab5d19e"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[SMnNO]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Social Media and News Online" mc="Standard.Class" uid="21bfc378-9650-4ebc-acd5-44df0eb28eaa"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="provider" mc="Standard.Dependency" uid="013af721-c7fd-42f5-af4e-0604613bb7eb"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[provider]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="na" mc="Standard.CollaborationUse" uid="2d31f2c6-aea0-44e4-8dd8-c1d35efd5115"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="OS" mc="Standard.BindableInstance" uid="2d3bcdf2-995b-49cc-8b79-169ac511aad6"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[OS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Other Services" mc="Standard.Class" uid="179f2d89-c2c8-4f79-8e70-7d00221f7140"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="producer" mc="Standard.Dependency" uid="319185e9-d7de-4600-800a-cdc524079f97"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"><![CDATA[producer]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="id" mc="Standard.CollaborationUse" uid="af342b1c-ba81-43a8-afb8-2e21906402b7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServicesArchitecture" mc="Standard.Stereotype" uid="01ec25d4-0000-16c2-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Masyarakat" mc="Standard.Class" uid="ff9c798b-b494-4a9f-95c9-9b6105ea83cd"/>
+        <COMPID name="Instansi" mc="Standard.Class" uid="26e86559-89c9-4682-90e2-e1da7a8017cb"/>
+        <COMPID name="NewsContainer" mc="Standard.Class" uid="6f39cc47-a864-45af-b09c-790b2cebb42a"/>
+        <COMPID name="Social Media and News Online" mc="Standard.Class" uid="21bfc378-9650-4ebc-acd5-44df0eb28eaa"/>
+        <COMPID name="Other Services" mc="Standard.Class" uid="179f2d89-c2c8-4f79-8e70-7d00221f7140"/>
+        <OBJECT>
+          <ID name="NewsDistributor" mc="Standard.Collaboration" uid="7e48700b-f3d6-440b-8cae-7b0736a011ca"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[NewsDistributor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="nb" mc="Standard.BindableInstance" uid="76a764d0-2193-4d7a-96ab-5d9764047b24"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[nb]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="NewsBroadcast" mc="Standard.Interface" uid="9d483ab1-9fe7-4205-976d-fb23b0010793"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Dependency" uid="dd3ace3b-f5a7-4c65-9524-4ef949890b31"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="np" mc="Standard.BindableInstance" uid="3cadea1c-80cd-4de9-b612-e17523217954"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="np" mc="Standard.BindableInstance" uid="3cadea1c-80cd-4de9-b612-e17523217954"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[np]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="NewsPlacer" mc="Standard.Interface" uid="93c9b45a-3d4d-42f1-a5ea-a3000b60b371"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationDistributor" mc="Standard.Collaboration" uid="2ce8a647-37c8-429b-ba50-2e4a8fb8a76d"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[InformationDistributor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="ib" mc="Standard.BindableInstance" uid="ced44563-04c3-439a-bee2-bb2d423ade56"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[ib]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="InformationBroadcast" mc="Standard.Interface" uid="594a4290-2894-4e50-bb03-44a085579454"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Dependency" uid="c6fbfd77-6d85-4306-9e5b-15ec9ca593ac"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="ip" mc="Standard.BindableInstance" uid="f6e2501d-35f9-478b-a8ac-20d05176d6bf"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ip" mc="Standard.BindableInstance" uid="f6e2501d-35f9-478b-a8ac-20d05176d6bf"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[ip]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="InformationPlacer" mc="Standard.Interface" uid="ca246e4d-c659-4590-8c55-2d7b49d64edf"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="NewsAggregator" mc="Standard.Collaboration" uid="47b44ea3-eacc-433e-b457-1b634f2b50ae"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[NewsAggregator]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="nt" mc="Standard.BindableInstance" uid="bae160ee-b2f0-42a9-9754-53f9d8780a1e"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[nt]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="NewsTaker" mc="Standard.Interface" uid="a887212d-f743-4991-b9bb-f54e57e99b71"/>
+                  </LINK>
+                  <COMP relation="DependsOnDependency">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Dependency" uid="93b63fbb-9b96-4113-8512-8a676f7d345a"/>
+                      <ATTRIBUTES>
+                        <ATT name="DependsOnId"></ATT>
+                        <ATT name="DependsOnName"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="nc" mc="Standard.BindableInstance" uid="96eddc3c-099d-4487-b15d-7103fc7cc087"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nc" mc="Standard.BindableInstance" uid="96eddc3c-099d-4487-b15d-7103fc7cc087"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[nc]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="NewsCollector" mc="Standard.Interface" uid="c13589af-6954-4202-a886-a7f46f5bf14f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="NewsBroadcast" mc="Standard.Interface" uid="9d483ab1-9fe7-4205-976d-fb23b0010793"/>
+        <COMPID name="NewsPlacer" mc="Standard.Interface" uid="93c9b45a-3d4d-42f1-a5ea-a3000b60b371"/>
+        <COMPID name="InformationBroadcast" mc="Standard.Interface" uid="594a4290-2894-4e50-bb03-44a085579454"/>
+        <COMPID name="InformationPlacer" mc="Standard.Interface" uid="ca246e4d-c659-4590-8c55-2d7b49d64edf"/>
+        <COMPID name="NewsTaker" mc="Standard.Interface" uid="a887212d-f743-4991-b9bb-f54e57e99b71"/>
+        <COMPID name="NewsCollector" mc="Standard.Interface" uid="c13589af-6954-4202-a886-a7f46f5bf14f"/>
+        <COMPID name="InformationDistributor" mc="Standard.Class" uid="9f47b7c1-f20e-4ce7-9def-1a539a96b104"/>
+        <COMPID name="CitizenManagement" mc="Standard.Class" uid="aed03be9-ee6c-4b97-ac0b-0451427dfe71"/>
+        <COMPID name="AgencyManagement" mc="Standard.Class" uid="c7eba4b5-2d86-4900-9660-7ca1e17082b7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="0ab39595-8337-4119-adfa-393adf481950"/>
+        <COMPID name="Services Architecture diagram" mc="Standard.StaticDiagram" uid="f6ac758a-96c3-4086-8431-64ec618cd769"/>
+        <COMPID name="Service Contract diagram" mc="Standard.StaticDiagram" uid="60908168-e2d7-4d28-917a-b7141ad78106"/>
+        <COMPID name="NewsAggregator" mc="Standard.StaticDiagram" uid="c9ba59fc-6ce8-4328-89fc-9d85a0ee0c73"/>
+        <COMPID name="NewsDistributor" mc="Standard.StaticDiagram" uid="a6338d3c-04fc-49ac-a046-555d724e12b7"/>
+        <COMPID name="InformationDistributor" mc="Standard.StaticDiagram" uid="943f6c57-ba24-4d11-8ae5-0f93663eb3cb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

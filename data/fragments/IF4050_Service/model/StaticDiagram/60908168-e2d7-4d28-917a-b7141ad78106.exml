@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Service Contract diagram" version="4">
+  <OBJECT>
+    <ID name="Service Contract diagram" mc="Standard.StaticDiagram" uid="60908168-e2d7-4d28-917a-b7141ad78106"/>
+    <PID name="if4050_service" mc="Standard.Package" uid="0ada3818-85fc-4ef1-8d74-4b746ea9a1a2"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">216</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Service Contract diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceContractDiagram" mc="Standard.Stereotype" uid="0208014c-0000-3501-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="34c9b117-25a3-4d73-8370-13e56df6ef76"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Service Contract diagram is dedicated to service contract modeling.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

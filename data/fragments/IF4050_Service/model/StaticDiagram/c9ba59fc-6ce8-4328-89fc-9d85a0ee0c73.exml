@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NewsAggregator" version="4">
+  <OBJECT>
+    <ID name="NewsAggregator" mc="Standard.StaticDiagram" uid="c9ba59fc-6ce8-4328-89fc-9d85a0ee0c73"/>
+    <PID name="if4050_service" mc="Standard.Package" uid="0ada3818-85fc-4ef1-8d74-4b746ea9a1a2"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">353</ATT>
+      <ATT name="UiData"><![CDATA[eJztXe9zosgW/Vcs631thx8NNJvMbDnqy1qTqKXOvDfvS6ppLg47CCkgm3H++tdodBPjGILYItufEog0DZxz7z2X0+by9x/zoPEXxIkfhe+baktpNn7/cDl0/gSWNnyX72o20sUdvG9G8aw1j1wI/Kjl+nQW03kLXD+N4laS0tT/3oIA5hCmyWqbrT90NZ8st7ur7WZjTv+M4tvNSZXmh8tRHN1BnC4aIZ3zcwV0Ed2nXZpS/rcvNLiHx0mE90HQfPfh8t36gBeHTtJFAM1nl6Dtu4Qk+3zSYlEMrdWxOebXoQmjLrjrk/V+pGPwcp5lwId4PLIBP9Ku0+dzXP6a/eKCR++DdP9Fdq7bk8ltezq9nfwx/M9k2hv3htOvo95k63b1wvv5b7mu+hMs/jX5Fj1MUoghyo6+4Yc0G39lo71v9jvDwf4pdXuj3qDbG3S+iprTtPff6f45jdqdT+2rXnUm1B/wWfy73endjnujcW9yezPs9g6azhjuYkg46zjDovDZdCbT8efO9PO41807qcrcp9FwPM1u0TFvT/+GQyMPzSpzVzrDm9Fw0BsIY/2OKb1bxdV904whoCm4PCBuzesm27VB59Oc0GC2Qw3bY8hkQBDWNYJItmm7xKAKgMIsff/NCWiSfgqjh/CaOhBsnXmSxn44a34YwEPSns1imFGety7fLT+z91qiAPphJ5rfRYmfQegXA+cYqvPND9wYshGu/SR9lqH0AkmWBfTnT55cO/zKk4OS6phPg4az4O8Hb2HlwlQudE29ULH65oSLj55ws2y7Su05CFyhWLua0HB0ezUefh596U/6H6+3J/Ux4qCj4WbsNL6HY7FwCZ6G7WHLsZiKPE0BhBlYnHjgIZUauk1t01EVXAL7+qEXxfPlzetyBsS+c18pFhqHsnAU+3MaLwZLZJRKSOWiOBvNvGzkQ/1YHEzJbaRIrO48wQ31wwwoB2LWKoDZbNTkjjL4BvwBxhy9g/WeP5Z7xEs0IhajpsRoHoyu0JBjwITXkLc+ezHQdirzaJBs57JdQ32HxUMUuyWMllL2/TZZlrdvT7O7phbseCBvH4o6/HlRlha4wg1Wn9DHLpa5ksT3/GUA6Gw2xpD4P6kTwFUc3d+JjwSqIkNBBUPBgWlKLdJGpOnqQmCWQZGjtL3ecSps5u4kloNNzgUJzhzgfI6LIlB99/hjf5hVi+j0bMDlta9RPFzvOBzF/ZCTI6vXHh+r/UqTZBemc4t1iWmh+gDSb5FbGNBPn3ARXbtB7VPAniDiChav6tHU6+YmNpiCVaarKtIpZQh7YCOqGirC2FQJ1VTds+0SEJpA6D5BaRp1ONx+Qii2KJDKIHcv7ynsi8j6qlBWsJYXQVlNJ55NPECmpxGENWYjBxMT2aZm6Zy2HrNeQUgxyk7ugHFVxiR1z4e6RbR4RairCdbeIqjreJSAYVBkM9tA2DRMRFydIlXVDNU1LJ0a7BjUbc8gZAvJ2IoyNp/g04q0LXwuyuKQ3xR+fpbec7ZczfuP+ybrfScgt2xeVFLoraFxoMrTivQmckH1RM02TXBjQtv2EpwnXktE5pG7aVqRvkQuxP4vCk8RYAX3KmoC2KMH2AwNJaM4J8CLqHg/DCFevptbIptvHG7w2m4Tv6i7c4BbtKqX1UPO6iHM9YZ+b+lQRLL+AqcnKhZ0wcqV00HC8/QlhF5Mn+1ELiSnKRt0wbpMQreKZcPLP22dx0++8C2f0XK7HltneWlkbT1i7JWSYvvF8062FpKoczqDjWNx2fbJaJvtzVyLk2zvCidlVkhvL5B0wXJV2mxzsXjCrzgI/DQPlevQPs07NzH9U/1gS33JPnpTtS+0bGWLol6o2tvdMnpujS+XtlRiaQsFV9EdsBGAyRB2bAtRpjhIwYaKNcv1wHplRUWuOPb4gvaGhjwvZTCujvVSL9KFELmspSgVBXck9CM7hWuA1JLWtOhF+hGbErE6i1qw4KaEfmRlVwOEyhUtpZWCW0OVvKIFF+nsVHRJCxbc4ZFx4Ng1FS7SyajcchYsumVx5BeWNcClqJUs+KA1AQJWsljW2+EseqG7hLO4RSz4jB3xWLBSxUdTqpub2LB00HXT1JBCiJY54jXkOIaFsMkcy1UszTWNEsA5g7QThbzkTZ90iqWptlpKYGeCOWMbvCFYt4vgqwEqoxgcTlCP89VwdEQ0AISJzmyPqrYO27Mowlfquo/55JG2kqsV5Wq+OtGokQHeECzDZX0oyvtu1M37bghW5kY9oHo+xjWjZt53Q7D2rglgjxlbT2Z7Nypre3/FUrEL16Klu8S1CMe7cf6Od1OwSDXkS6UT1wxmDczupmANJlFbsTrhn+BzN+vsczcFS1Npu5Me90p73M2qedxtrCw97pqVGWsLfF+89Ljvn1DVPO7MAodix0CaS0yEbUVBtmkqyGJUBdVSiOa84qbIFcJW32hURTuWWXGLe2Emiv5a/CPn2vMHakkOd7MmDndL9Je1H1nOnT9ApcG9tDpwa6iSDe5WjQzuluCujgwDRy6orFr42y3BrQrryC9vzh+WouztVuXt7a+YY3ehWfArdolmce5264zd7ZZgkWoJcMsyolNNdwhSLWxzbBKCHIdhRD0GDLCrglPGv2iQ7vYzkAE788sZu9uJYM0uhK+Griqq4iBmZl/yTgFzvmb/PhoocWyd2pSWsRpFutvPhav5ykRSI3c7EazBZXkoyNxO6mZuJ4JlOakHUs/HqEZqZm4ngpV3TQB7xNB6Mm87qZG3nYgW7hLWAqzt5Pyt7bZghUrk66TTFgx2DZzttmD9JUFbrSLhn2Bst+tsbLcFy1JptpO+9sr52l+NL9d++D3ZEyq3Pv5x1o3pA3+a13TB2fmccPvbBOv44a4GSFpBNgQPHc9GFJPn33ZUPpZOsjjJuqvLbTDboYbtMWQyIAjrGkEk27RdYlAFQGHWK1+R7W+DdU2j7lXruv21N7792O58yozrg27ZafGXozx9Vn/D5ikI9vZWJAhKB8F0OBJWFP0fSV73ew==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[NewsAggregator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="CapabilityDiagram" mc="Standard.Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="4cfbaf9f-0fb5-4b17-a44b-c3a283648ac7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Capability diagram is used for designing Capabilities (functions) and relations between them (use links). Capabilities can be placed in packages to separate domains.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

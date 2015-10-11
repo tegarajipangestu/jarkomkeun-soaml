@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_THBQcHADEeWZhqEQMgqRZw" name="if4050_service">
+  <eAnnotations xmi:id="_THLBcHADEeWZhqEQMgqRZw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_THLBcXADEeWZhqEQMgqRZw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_THLBcnADEeWZhqEQMgqRZw" value="3.0.0"/>
+    </contents>
+    <contents xmi:type="uml:Property" xmi:id="_THLBc3ADEeWZhqEQMgqRZw" name="isRoundTrip"/>
+    <contents xmi:type="uml:Property" xmi:id="_THLBdHADEeWZhqEQMgqRZw" name="Visibility">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_THLBdXADEeWZhqEQMgqRZw" value="0"/>
+    </contents>
+  </eAnnotations>
+</uml:Model>

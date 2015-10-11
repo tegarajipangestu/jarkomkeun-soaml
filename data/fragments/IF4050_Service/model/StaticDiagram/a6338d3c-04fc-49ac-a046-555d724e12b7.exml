@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NewsDistributor" version="4">
+  <OBJECT>
+    <ID name="NewsDistributor" mc="Standard.StaticDiagram" uid="a6338d3c-04fc-49ac-a046-555d724e12b7"/>
+    <PID name="if4050_service" mc="Standard.Package" uid="0ada3818-85fc-4ef1-8d74-4b746ea9a1a2"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">359</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[NewsDistributor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="CapabilityDiagram" mc="Standard.Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="ca0d2283-933d-4094-9fc9-c8ea05413476"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Capability diagram is used for designing Capabilities (functions) and relations between them (use links). Capabilities can be placed in packages to separate domains.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
